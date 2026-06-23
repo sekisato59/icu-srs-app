@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/icu-srs-app/sw.js', { scope: '/icu-srs-app/' })})}
